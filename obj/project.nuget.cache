@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ud7bnSDo0xbUZdHBDCj7EuASOFiz586gzDL1P6Z+LMoSHFcU8lGRL+yajiQnSboceON5vh8ULAPq/LRDuZ3fdQ==",
+  "success": true,
+  "projectFilePath": "/home/martin/Documents/convertidor/convertir/convertir.csproj",
+  "expectedPackageFiles": [
+    "/home/martin/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
