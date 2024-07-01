@@ -4,10 +4,6 @@ do
 {
     Console.WriteLine("~~~~~~~~~~~~ Convertidor de Unidades ~~~~~~~~~~~~~~~");
     Console.WriteLine("Bienvenido a su convertidor de unidades.");
-    Console.WriteLine("Ingrese un valor en metros.");
-
-    int x = int.Parse(Console.ReadLine());
-
     Console.WriteLine("A que unidad desea convertir?");
     Console.WriteLine("1. Kilometros.");
     Console.WriteLine("2. Hectometros.");
@@ -21,6 +17,8 @@ do
 
     string opcion = Console.ReadLine();
     float resultado;
+    Console.WriteLine("Ingrese un valor en metros.");
+    float x = float.Parse(Console.ReadLine());
     switch (opcion)
     {
         case "1":
