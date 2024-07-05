@@ -16,33 +16,56 @@ do
     Console.WriteLine("9. Salir.");
 
     string opcion = Console.ReadLine();
-    float resultado;
-    Console.WriteLine("Ingrese un valor en metros.");
-    float x = float.Parse(Console.ReadLine());
+    double resultado,
+        x;
     switch (opcion)
     {
         case "1":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
             resultado = x / 1000;
             Console.WriteLine($"{x} m son {resultado} km.");
             break;
         case "2":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
             resultado = x / 100;
             Console.WriteLine($"{x} m son {resultado} hm.");
             break;
         case "3":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
             resultado = x / 10;
             Console.WriteLine($"{x} m son {resultado} dm.");
             break;
         case "4":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
             resultado = x * 10;
             Console.WriteLine($"{x} m son {resultado} dcm.");
             break;
         case "5":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
             resultado = x * 100;
             Console.WriteLine($"{x} m son {resultado} cm.");
             break;
         case "6":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
             resultado = x * 1000;
+            Console.WriteLine($"{x} m son {resultado} mm.");
+            break;
+        case "7":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
+            resultado = x / 1609;
+            Console.WriteLine($"{x} m son {resultado} millas.");
+            break;
+        case "8":
+            Console.WriteLine("Ingrese un valor en metros.");
+            x = double.Parse(Console.ReadLine());
+            resultado = x * 39.37;
             Console.WriteLine($"{x} m son {resultado} mm.");
             break;
         case "9":
